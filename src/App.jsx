@@ -1,10 +1,11 @@
 import { useState } from 'react'
 import './App.css'
+import PostWritter from './PostWritter'
 
 function App() {
   return (
     <>
-    <h1> hi there</h1>
+    <PostWritter/>
     </>
   )
 }
