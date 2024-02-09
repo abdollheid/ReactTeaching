@@ -21,3 +21,5 @@ export default function PostWritter() {
 
 // posts = ['post1', 'post2', 'post3'];
 // posts = [<h1>'post1'</h1>, <h1>'post2'</h1>, <h1>'post3'</h1>];
+
+// challenge re-write the post component on your own
