@@ -13,9 +13,8 @@ export default function PostWritter() {
             // setPostsStates([3]);
             setPostsStates((prevState) => { return [...prevState, currentTextValue] });
         }}>Add Post</button>
-
-        {postsStates.map(
-            (post) => { return <h1>{post}</h1> })}
+        
+        {postsStates.map((post) => { return <h1>{post}</h1>})}
     </>
 }
 
